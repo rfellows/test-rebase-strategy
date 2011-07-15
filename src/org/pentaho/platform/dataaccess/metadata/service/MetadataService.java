@@ -66,7 +66,7 @@ public class MetadataService extends PentahoBase {
   private Log logger = LogFactory.getLog(MetadataService.class);
   
   public MetadataService() {
-    setLoggingLevel(ILogger.ERROR);
+    setLoggingLevel(ILogger.INFO);
   }
   
   /**
