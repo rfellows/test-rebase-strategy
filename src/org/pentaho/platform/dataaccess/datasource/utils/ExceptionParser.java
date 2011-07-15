@@ -21,7 +21,7 @@
 package org.pentaho.platform.dataaccess.datasource.utils;
 
 public class ExceptionParser {
-    public static String DELIMETER = "-"; //$NON-NLS-1$
+    public static String DELIMETER = "="; //$NON-NLS-1$
     
     public static String getErrorMessage(Throwable throwable, String defaultErrorMessage) {
       String message = throwable.getLocalizedMessage();
